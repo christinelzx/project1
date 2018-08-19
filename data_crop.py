@@ -2,7 +2,6 @@ import numpy as np
 import copy
 import data_pre
 
-
 def crop_image_and_label( image_data_list,label_data_list, input_depth, input_size, channel=1):
 
 
