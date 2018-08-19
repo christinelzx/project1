@@ -98,7 +98,6 @@ def create_test_data():
     # print('Saving to .npy files done.')
     # return imgs,imgs_label
 
-
 def convert_to_array( file):
 
     image_file = os.path.join(path, file)

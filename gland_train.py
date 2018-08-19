@@ -31,7 +31,6 @@ def dice_coef(y_true, y_pred):
 def dice_coef_loss(y_true, y_pred):
     return -dice_coef(y_true, y_pred)
 
-
 def get_unet():
     inputs = Input((img_rows, img_cols, 3))
     print (inputs)

@@ -94,7 +94,6 @@ def create_train_data():
     print('Saving to .npy files done.')
     return imgs,imgs_label
 
-
 def create_test_data():
     # test_data_path = path + "/TestData"
     images_folders = os.listdir(path+"/TestData")
